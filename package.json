@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-yoctol",
+  "version": "0.0.1",
+  "description": "Yoctol specific linting rules for ESLint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yoctol/eslint-plugin-yoctol"
+  },
+  "homepage": "https://github.com/Yoctol/eslint-plugin-yoctol",
+  "bugs": "https://github.com/Yoctol/eslint-plugin-yoctol/issues",
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.0",
+    "react": "^0.14.7"
+  },
+  "peerDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-plugin-react": "^4.0.0"
+  },
+  "license": "MIT"
+}
