@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-yoctol",
+  "name": "eslint-config-yoctol",
   "version": "0.0.1",
   "description": "Yoctol specific linting rules for ESLint",
   "main": "index.js",
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yoctol/eslint-plugin-yoctol"
+    "url": "https://github.com/Yoctol/eslint-config-yoctol"
   },
-  "homepage": "https://github.com/Yoctol/eslint-plugin-yoctol",
-  "bugs": "https://github.com/Yoctol/eslint-plugin-yoctol/issues",
+  "homepage": "https://github.com/Yoctol/eslint-config-yoctol",
+  "bugs": "https://github.com/Yoctol/eslint-config-yoctol/issues",
   "devDependencies": {
     "eslint": "^2.3.0",
     "eslint-config-airbnb": "^6.1.0",
