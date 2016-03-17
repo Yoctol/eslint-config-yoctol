@@ -8,8 +8,10 @@
   },
   "files": [
     "README.md",
+    "base.js",
     "index.js",
-    "lib"
+    "legacy.js",
+    "rules"
   ],
   "repository": {
     "type": "git",
