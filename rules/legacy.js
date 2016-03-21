@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
-    // disallow trailing commas in object literals
-    'comma-dangle': [2, 'never'],
+    // require trailing commas in multiline object literals
+    'comma-dangle': [2, 'always-multiline'],
     // specify the maximum depth that blocks can be nested
     'max-depth': [0, 4],
     // limits the number of parameters that can be used in the function declaration.
