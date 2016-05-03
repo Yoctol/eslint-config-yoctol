@@ -31,3 +31,7 @@ Lints ES5 and below. Only requires `eslint`.
 See [Airbnb's Javascript styleguide](https://github.com/yoctol/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
+
+## Rules be overwrited 
+
+- react/jsx-no-bind: 0
