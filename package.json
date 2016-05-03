@@ -20,14 +20,14 @@
   "homepage": "https://github.com/Yoctol/eslint-config-yoctol",
   "bugs": "https://github.com/Yoctol/eslint-config-yoctol/issues",
   "devDependencies": {
-    "eslint": "^2.3.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.0",
-    "react": "^0.14.7"
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-react": "^5.0.1",
+    "react": "^15.0.1"
   },
   "peerDependencies": {
-    "eslint": "^2.2.0",
-    "eslint-plugin-react": "^4.0.0"
+    "eslint": "^2.8.0",
+    "eslint-plugin-react": "^5.0.0"
   },
   "license": "MIT"
 }
