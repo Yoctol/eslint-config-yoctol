@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
-    'eslint-config-yoctol/base',
-    'eslint-config-airbnb/rules/strict',
-    'eslint-config-airbnb/rules/react',
-    'eslint-config-yoctol/rules/strict',
-    'eslint-config-yoctol/rules/react',
+    'eslint-config-airbnb',
+    'eslint-config-yoctol-base',
+    'eslint-config-yoctol-base/rules/strict',
+    './rules/react',
+    './rules/react-a11y',
   ].map(require.resolve),
   rules: {},
 };

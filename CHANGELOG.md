@@ -1,3 +1,7 @@
+0.4.0 / 2016-05-06
+==================
+- [deps] update `eslint-config-airbnb` to `v8.0.0`
+
 0.3.0 / 2016-05-06
 ==================
 - [deps] update `eslint-config-airbnb` to `v7.0.0`

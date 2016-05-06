@@ -6,32 +6,36 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "files": [
-    "README.md",
-    "base.js",
-    "index.js",
-    "legacy.js",
-    "rules"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Yoctol/eslint-config-yoctol"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "yoctol",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoctol/eslint-config-yoctol/issues"
+  },
   "homepage": "https://github.com/Yoctol/eslint-config-yoctol",
-  "bugs": "https://github.com/Yoctol/eslint-config-yoctol/issues",
   "dependencies": {
-    "eslint-config-airbnb": "^7.0.0"
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-config-yoctol-base": "^0.1.1"
   },
   "devDependencies": {
-    "eslint": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^0.6.2",
-    "eslint-plugin-react": "^4.3.0",
+    "eslint": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1",
     "react": "^15.0.1"
   },
   "peerDependencies": {
-    "eslint": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^0.6.2",
-    "eslint-plugin-react": "^4.3.0"
-  },
-  "license": "MIT"
+    "eslint": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1"
+  }
 }

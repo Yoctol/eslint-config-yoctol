@@ -1,26 +1,4 @@
 module.exports = {
-  extends: [
-    'eslint-config-airbnb/rules/best-practices',
-    'eslint-config-airbnb/rules/errors',
-    'eslint-config-airbnb/rules/legacy',
-    'eslint-config-airbnb/rules/node',
-    'eslint-config-airbnb/rules/style',
-    'eslint-config-airbnb/rules/variables',
-    'eslint-config-yoctol/rules/best-practices',
-    'eslint-config-yoctol/rules/errors',
-    'eslint-config-yoctol/rules/legacy',
-    'eslint-config-yoctol/rules/node',
-    'eslint-config-yoctol/rules/style',
-    'eslint-config-yoctol/rules/variables',
-  ].map(require.resolve),
-  env: {
-    browser: true,
-    node: true,
-    amd: false,
-    mocha: false,
-    jasmine: false,
-  },
-  ecmaFeatures: {},
-  globals: {},
+  extends: ['eslint-config-yoctol-base/legacy'].map(require.resolve),
   rules: {},
 };
