@@ -1,3 +1,7 @@
+0.4.1 / 2016-05-06
+==================
+- [fix] Put eslint-config-airbnb after eslint-config-require yoctol-base
+
 0.4.0 / 2016-05-06
 ==================
 - [deps] update `eslint-config-airbnb` to `v8.0.0`
