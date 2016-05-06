@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-yoctol",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Yoctol specific linting rules for ESLint",
   "main": "index.js",
   "scripts": {
