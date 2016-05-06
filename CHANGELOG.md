@@ -1,6 +1,6 @@
 0.3.0 / 2016-05-06
 ==================
-- [deps] update `eslint-config-airbnb`
+- [deps] update `eslint-config-airbnb` to `v7.0.0`
 
 0.2.0 / 2016-03-21
 ==================

@@ -11,7 +11,7 @@
 Our default export contains all of our ESLint rules, including EcmaScript 6+
 and React. It requires `eslint` and `eslint-plugin-react`.
 
-1. `npm install --save-dev eslint-config-yoctol eslint-plugin-react eslint`
+1. `npm install --save-dev eslint-config-yoctol eslint-plugin-react eslint-plugin-jsx-a11y eslint`
 2. add `"extends": "yoctol"` to your .eslintrc
 
 ### eslint-config-yoctol/base
