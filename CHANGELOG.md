@@ -2,6 +2,7 @@ HEAD
 ==================
 - [deps] update `eslint-config-yoctol-base` to v0.3
 - [breaking] set `react/no-deprecated` to warn for React v15
+- [breaking] follow `react/jsx-no-bind` settings in airbnb latest version
 
 0.5.0 / 2016-05-10
 ==================
