@@ -1,3 +1,7 @@
+HEAD
+==================
+- [deps] update `eslint-config-yoctol-base` to v0.3
+
 0.5.0 / 2016-05-10
 ==================
 - [deps] update `eslint-config-airbnb` to v9, `eslint-config-yoctol-base` to v0.2
