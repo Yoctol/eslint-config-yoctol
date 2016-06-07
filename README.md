@@ -36,4 +36,4 @@ for more information.
 
 #### react
 
-- react/jsx-no-bind: 0
+- react/no-deprecated: [1, { react: '15.0.0' }]
