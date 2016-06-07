@@ -1,3 +1,7 @@
+0.6.2 / 2016-06-07
+==================
+- [fix] Avoid `eslint-config-airbnb` overwrite yoctol's rules directly
+
 0.6.1 / 2016-06-07
 ==================
 - [deps] update `eslint-config-yoctol-base` to v0.3.1
