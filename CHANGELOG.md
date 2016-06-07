@@ -1,3 +1,7 @@
+0.6.1 / 2016-06-07
+==================
+- [deps] update `eslint-config-yoctol-base` to v0.3.1
+
 0.6.0 / 2016-06-07
 ==================
 - [deps] update `eslint-config-yoctol-base` to v0.3
