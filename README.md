@@ -45,5 +45,6 @@ for more information.
 
 ```
 - react/no-deprecated: ['warn']
+- react/prefer-stateless-function: 'off'
 - react/jsx-filename-extension: ['error', { extensions: ['.js'] }]
 ```
