@@ -1,3 +1,14 @@
+0.7.0 / 2016-09-01
+==================
+- [deps] update `eslint` to v3.3.1
+- [deps] update `eslint-plugin-import` to v1.13.0
+- [deps] update `eslint-plugin-jsx-a11y` to v2.1.0
+- [deps] update `eslint-plugin-react` to v6.1.2
+- [deps] update `eslint-config-airbnb` to v10.0.1
+- [deps] update `eslint-config-yoctol-base` to v0.5.0
+- [breaking] set `react/jsx-filename-extension` to only accept `.js` filename
+- [breaking] disable `react/prefer-stateless-function`
+
 0.6.2 / 2016-06-07
 ==================
 - [fix] Avoid `eslint-config-airbnb` overwrite yoctol's rules directly
