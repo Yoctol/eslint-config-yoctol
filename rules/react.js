@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': [1, { react: '15.0.0' }],
+    'react/no-deprecated': ['warning'],
   },
 
   settings: {
