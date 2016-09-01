@@ -18,6 +18,11 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
     'react/no-deprecated': ['warn'],
 
+    // Optional stateless functions when not using lifecycle methods, setState or ref
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
+    // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/24
+    'react/prefer-stateless-function': 'off',
+
     // only .js files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/21
