@@ -9,24 +9,31 @@
 ### eslint-config-yoctol
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint` and `eslint-plugin-react`.
+and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
 
-1. `npm install --save-dev eslint-config-yoctol eslint-plugin-react eslint-plugin-jsx-a11y eslint`
-2. add `"extends": "yoctol"` to your .eslintrc
+1. Ensure packages are installed with correct version numbers by running:
+  ```sh
+  (
+    export PKG=eslint-config-yoctol;
+    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+  )
+  ```
+
+  Which produces and runs a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-yoctol eslint@^2.9.0 eslint-plugin-jsx-a11y@^1.2.0 eslint-plugin-import@^1.7.0 eslint-plugin-react@^5.0.1
+  ```
+
+2. Add `"extends": "yoctol"` to your .eslintrc
 
 ### eslint-config-yoctol/base
 
-Lints ES6+ but does not lint React. Requires `eslint`.
-
-1. `npm install --save-dev eslint-config-yoctol eslint`
-2. add `"extends": "yoctol/base"` to your .eslintrc
+This entry point is deprecated. See [eslint-config-yoctol-base](https://npmjs.com/eslint-config-yoctol-base).
 
 ### eslint-config-yoctol/legacy
 
-Lints ES5 and below. Only requires `eslint`.
-
-1. `npm install --save-dev eslint-config-yoctol eslint`
-2. add `"extends": "yoctol/legacy"` to your .eslintrc
+This entry point is deprecated. See [eslint-config-yoctol-base](https://npmjs.com/eslint-config-yoctol-base).
 
 See [Airbnb's Javascript styleguide](https://github.com/yoctol/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
@@ -36,4 +43,6 @@ for more information.
 
 #### react
 
-- react/no-deprecated: [1, { react: '15.0.0' }]
+```
+- react/no-deprecated: ['warn']
+```

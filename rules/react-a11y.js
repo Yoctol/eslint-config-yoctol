@@ -1,12 +1,12 @@
 module.exports = {
-  'plugins': [
+  plugins: [
     'jsx-a11y',
     'react'
   ],
-  'ecmaFeatures': {
-    'jsx': true
+  ecmaFeatures: {
+    jsx: true
   },
-  'rules': {
+  rules: {
 
   }
 };
