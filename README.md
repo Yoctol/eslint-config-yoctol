@@ -22,7 +22,7 @@ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, 
   Which produces and runs a command like:
 
   ```sh
-  npm install --save-dev eslint-config-yoctol eslint@^2.9.0 eslint-plugin-jsx-a11y@^1.2.0 eslint-plugin-import@^1.7.0 eslint-plugin-react@^5.0.1
+  npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
   ```
 
 2. Add `"extends": "yoctol"` to your .eslintrc
