@@ -1,3 +1,13 @@
+0.9.0 / 2016-09-29
+==================
+- [deps] update `eslint` to v3.6.0
+- [deps] update `eslint-plugin-import` to v1.16.0
+- [deps] update `eslint-plugin-jsx-a11y` to v2.2.2
+- [deps] update `eslint-plugin-react` to v6.3.0
+- [deps] update `eslint-config-airbnb` to v12.0.0
+- [deps] update `eslint-config-yoctol-base` to v0.8.0
+- [breaking] enable `react/sort-prop-types`
+
 0.8.1 / 2016-09-19
 ==================
 - [deps] update `eslint` to v3.5.0
