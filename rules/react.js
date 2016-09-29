@@ -14,6 +14,15 @@ module.exports = {
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   rules: {
+    // Enforce propTypes declarations alphabetical sorting
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
+    // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/30
+    'react/sort-prop-types': ['error', {
+      callbacksLast: true,
+      ignoreCase: false,
+      requiredFirst: false,
+    }],
+
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
     'react/no-deprecated': ['warn'],
