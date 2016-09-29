@@ -2,7 +2,9 @@
 
 > Fork from [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 
-[![npm version](https://badge.fury.io/js/eslint-config-yoctol.svg)](http://badge.fury.io/js/eslint-config-yoctol)
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][david_img]][david_site]
 
 ## Usage
 
@@ -48,3 +50,10 @@ for more information.
 - react/prefer-stateless-function: 'off'
 - react/jsx-filename-extension: ['error', { extensions: ['.js'] }]
 ```
+
+[npm-image]: https://badge.fury.io/js/eslint-config-yoctol.svg
+[npm-url]: https://npmjs.org/package/eslint-config-yoctol
+[travis-image]: https://travis-ci.org/Yoctol/eslint-config-yoctol.svg
+[travis-url]: https://travis-ci.org/Yoctol/eslint-config-yoctol
+[david_img]: https://david-dm.org/Yoctol/eslint-config-yoctol.svg
+[david_site]: https://david-dm.org/Yoctol/eslint-config-yoctol
