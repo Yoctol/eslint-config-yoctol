@@ -46,6 +46,11 @@ for more information.
 #### react
 
 ```
+- react/sort-prop-types: ['error', {
+  callbacksLast: true,
+  ignoreCase: false,
+  requiredFirst: false,
+}]
 - react/no-deprecated: ['warn']
 - react/prefer-stateless-function: 'off'
 - react/jsx-filename-extension: ['error', { extensions: ['.js'] }]
