@@ -1,3 +1,13 @@
+0.10.0 / 2016-11-08
+==================
+- [deps] update `eslint` to `v3.9.1`
+- [deps] update `eslint-plugin-import` to `v2.1.0`
+- [deps] update `eslint-plugin-jsx-a11y` to `v2.2.3`
+- [deps] update `eslint-plugin-react` to `v6.6.0`
+- [deps] update `eslint-config-airbnb` to `v13.0.0`
+- [deps] update `eslint-config-yoctol-base` to `v0.10.0`
+- [docs] ensure latest version of config is installed
+
 0.9.0 / 2016-09-29
 ==================
 - [deps] update `eslint` to v3.6.0
