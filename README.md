@@ -17,7 +17,7 @@ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, 
   ```sh
   (
     export PKG=eslint-config-yoctol;
-    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
   )
   ```
 
