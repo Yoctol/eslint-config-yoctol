@@ -1,3 +1,7 @@
+0.11.0 / 2016-12-09
+==================
+- [deps] update `eslint-config-yoctol-base` to `v0.11.0`
+
 0.10.0 / 2016-11-08
 ==================
 - [deps] update `eslint` to `v3.9.1`
