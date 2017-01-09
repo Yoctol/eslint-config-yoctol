@@ -1,3 +1,10 @@
+0.12.0 / 2017-01-09
+==================
+- [breaking] [deps] update `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-config-airbnb`, `eslint-config-yoctol-base`
+- [breaking] [deps] update `eslint-plugin-jsx-a11y` to v3
+- [docs] add note about `install-peerdeps`
+- [docs] Updated instructions to support non-bash users
+
 0.11.0 / 2016-12-09
 ==================
 - [deps] update `eslint-config-yoctol-base` to `v0.11.0`
