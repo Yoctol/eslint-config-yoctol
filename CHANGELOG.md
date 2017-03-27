@@ -1,3 +1,7 @@
+0.12.1 / 2017-03-27
+==================
+- [deps] update `eslint`, `eslint-plugin-react`, `eslint-config-airbnb`, `eslint-config-yoctol-base`, `eslint-plugin-jsx-a11y`
+
 0.12.0 / 2017-01-09
 ==================
 - [breaking] [deps] update `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-config-airbnb`, `eslint-config-yoctol-base`
