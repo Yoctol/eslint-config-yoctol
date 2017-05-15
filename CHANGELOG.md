@@ -1,3 +1,10 @@
+0.13.0 / 2017-05-15
+==================
+- [deps] update `eslint-config-airbnb` to `v15.0.0`
+- [deps] update `eslint-config-yoctol-base` to `v0.12.5`
+- [deps] update `eslint-plugin-jsx-a11y` to `v5.0.1`
+- [deps] update `eslint-plugin-react` to `v7.0.1`
+
 0.12.2 / 2017-04-05
 ==================
 - [deps] update `eslint` to `v3.19.0`
