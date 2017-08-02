@@ -1,14 +1,9 @@
 module.exports = {
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-  },
-  ecmaFeatures: {
-    jsx: true
   },
 
   // View link below for react rules documentation
@@ -17,11 +12,14 @@ module.exports = {
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/30
-    'react/sort-prop-types': ['error', {
-      callbacksLast: true,
-      ignoreCase: false,
-      requiredFirst: false,
-    }],
+    'react/sort-prop-types': [
+      'error',
+      {
+        callbacksLast: true,
+        ignoreCase: false,
+        requiredFirst: false,
+      },
+    ],
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
@@ -41,12 +39,12 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.json']
-      }
+        extensions: ['.js', '.jsx', '.json'],
+      },
     },
     react: {
       pragma: 'React',
-      version: '15'
+      version: '15.0',
     },
-  }
+  },
 };
