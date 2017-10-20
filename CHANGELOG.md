@@ -1,3 +1,11 @@
+0.15.1 / 2017-10-20
+==================
+- [deps] update `eslint-config-airbnb` to `v16.1.0`
+- [deps] update `eslint-plugin-import` to `v2.8.0`
+- [deps] update `eslint-plugin-jsx-a11y` to `v6.0.2`
+- [deps] update `eslint` to `v4.9.0`
+
+
 0.15.0 / 2017-10-15
 ==================
 - [deps] update `eslint-config-airbnb` to `v16.0.0`
