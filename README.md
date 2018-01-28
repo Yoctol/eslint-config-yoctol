@@ -12,41 +12,42 @@
 ### eslint-config-yoctol
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
+and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-jsx-a11y` and `eslint-plugin-prettier`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
-  ```sh
-  npm info "eslint-config-yoctol@latest" peerDependencies
-  ```
 
-  Linux/OSX users can simply run
+```sh
+npm info "eslint-config-yoctol@latest" peerDependencies
+```
 
-  ```sh
-  (
-    export PKG=eslint-config-yoctol;
-    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
-  )
-  ```
+Linux/OSX users can simply run
 
-  Which produces and runs a command like:
+```sh
+(
+  export PKG=eslint-config-yoctol;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
+```
 
-  ```sh
-  npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
-  ```
+Which produces and runs a command like:
 
-  Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
+```sh
+npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-prettier@^#.#.#
+```
 
-  ```sh
-  npm install -g install-peerdeps
-  install-peerdeps --dev eslint-config-yoctol
-  ```
+Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
 
-  The cli will produce and run a command like:
+```sh
+npm install -g install-peerdeps
+install-peerdeps --dev eslint-config-yoctol
+```
 
-  ```sh
-  npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
-  ```
+The cli will produce and run a command like:
+
+```sh
+npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-prettier@^#.#.#
+```
 
 2. Add `"extends": "yoctol"` to your .eslintrc
 
