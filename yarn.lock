@@ -321,9 +321,9 @@ eslint-config-prettier@^2.9.0:
   dependencies:
     get-stdin "^5.0.1"
 
-eslint-config-yoctol-base@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-yoctol-base/-/eslint-config-yoctol-base-0.15.0.tgz#709af05eb5df13d523e30b602bad9733f356dc85"
+eslint-config-yoctol-base@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-yoctol-base/-/eslint-config-yoctol-base-0.15.1.tgz#037d2b5c7343d41507eec2bc338359690c1c6b0d"
   dependencies:
     eslint-config-airbnb-base "^12.1.0"
     eslint-config-prettier "^2.9.0"
