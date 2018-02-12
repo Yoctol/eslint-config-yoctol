@@ -1,3 +1,7 @@
+# 0.16.1 / 2018-02-12
+
+* [deps] update `eslint-config-yoctol-base` to `v0.15.1`
+
 # 0.16.0 / 2018-01-28
 
 * [deps] update `eslint-config-yoctol-base` to `v0.15.0`
