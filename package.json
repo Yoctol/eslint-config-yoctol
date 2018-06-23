@@ -28,7 +28,7 @@
     "eslint-config-yoctol-base": "^0.15.1"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
+    "eslint": "^5.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.5.0",
