@@ -35,16 +35,4 @@ module.exports = {
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/21
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
   },
-
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.json'],
-      },
-    },
-    react: {
-      pragma: 'React',
-      version: '15.0',
-    },
-  },
 };
