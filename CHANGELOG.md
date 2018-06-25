@@ -1,3 +1,8 @@
+# 0.17.0 / 2018-06-25
+
+* [deps] update `eslint-config-yoctol-base` to `v0.16.0`
+* [deps] update `eslint-config-airbnb` to `v17.0.0`
+
 # 0.16.1 / 2018-02-12
 
 * [deps] update `eslint-config-yoctol-base` to `v0.15.1`
