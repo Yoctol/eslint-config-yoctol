@@ -1,3 +1,7 @@
+# 0.17.1 / 2018-06-26
+
+* [fix] overwrite rules with eslint-config-prettier/react
+
 # 0.17.0 / 2018-06-25
 
 * [deps] update `eslint-config-yoctol-base` to `v0.16.0`
