@@ -12,10 +12,9 @@
 ### eslint-config-yoctol
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-jsx-a11y` and `eslint-plugin-prettier`.
+and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-jsx-a11y`, `eslint-plugin-prettier` and `eslint-plugin-sort-imports-es6-autofix`.
 
-1. Install the correct versions of each package, which are listed by the command:
-
+1.  Install the correct versions of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-yoctol@latest" peerDependencies
@@ -33,7 +32,7 @@ Linux/OSX users can simply run
 Which produces and runs a command like:
 
 ```sh
-npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-prettier@^#.#.#
+npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
 ```
 
 Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
@@ -46,10 +45,10 @@ install-peerdeps --dev eslint-config-yoctol
 The cli will produce and run a command like:
 
 ```sh
-npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-prettier@^#.#.#
+npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
 ```
 
-2. Add `"extends": "yoctol"` to your .eslintrc
+2.  Add `"extends": "yoctol"` to your .eslintrc
 
 ### eslint-config-yoctol/base
 
