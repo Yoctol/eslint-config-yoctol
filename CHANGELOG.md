@@ -1,3 +1,12 @@
+# 0.18.1 / 2018-08-21
+
+- [new] add `eslint` v5 support
+- [deps] update `eslint-config-yoctol-base` to `0.17.1`
+- [deps] update `eslint-config-airbnb` to `17.1.0`
+- [deps] update `eslint-plugin-import` to `2.14.0`
+- [deps] update `eslint-plugin-react` to `7.11.1`
+- [deps] update `prettier` to `1.14.2`
+
 # 0.18.0 / 2018-07-23
 
 - [deps] update `eslint-config-yoctol-base` to `v0.17.0`
