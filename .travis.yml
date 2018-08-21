@@ -4,4 +4,5 @@ node_js:
   - "stable"
   - "8"
   - "6"
+install: "yarn install --frozen-lockfile"
 script: "npm run lint"
