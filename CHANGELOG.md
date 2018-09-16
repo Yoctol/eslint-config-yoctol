@@ -1,3 +1,7 @@
+# 0.18.2 / 2018-09-16
+
+- [deps] update `eslint-config-yoctol-base` to `0.17.2`
+
 # 0.18.1 / 2018-08-21
 
 - [new] add `eslint` v5 support
