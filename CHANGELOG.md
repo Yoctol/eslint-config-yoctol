@@ -1,3 +1,7 @@
+# 0.19.0 / 2018-10-24
+
+- [deps] peerDependencies `eslint-plugin-prettier` to `v3.0.0`
+
 # 0.18.2 / 2018-09-16
 
 - [deps] update `eslint-config-yoctol-base` to `0.17.2`
