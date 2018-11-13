@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -34,5 +34,8 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/21
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+
+    // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
+    'react-hooks/rules-of-hooks': 'error',
   },
 };
