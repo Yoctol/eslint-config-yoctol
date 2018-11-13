@@ -28,18 +28,18 @@
     "eslint-config-yoctol-base": "^0.18.0"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
+    "eslint": "^5.9.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-react-hooks": "^0.0.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
-    "prettier": "^1.14.3",
-    "react": "^16.6.0"
+    "prettier": "^1.15.2",
+    "react": "^16.6.3"
   },
   "peerDependencies": {
-    "eslint": "^5.7.0",
+    "eslint": "^5.9.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
