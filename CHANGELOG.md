@@ -1,3 +1,8 @@
+# 0.20.0 / 2018-11-13
+
+- [new] add `eslint-plugin-react-hooks` rules
+- [deps] update `eslint` to `v5.9.0`
+
 # 0.19.0 / 2018-10-24
 
 - [deps] peerDependencies `eslint-plugin-prettier` to `v3.0.0`
