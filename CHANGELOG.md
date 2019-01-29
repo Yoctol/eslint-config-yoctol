@@ -1,3 +1,13 @@
+# 0.21.0 / 2019-01-29
+
+- [deps] update `eslint-config-yoctol-base` to `0.19.0`
+- [deps] update `prettier` to `1.16.1`
+- [deps] peerDependencies `eslint` to `v5.12.1`
+- [deps] peerDependencies `eslint-plugin-jsx-a11y` to `v6.2.0`
+- [deps] peerDependencies `eslint-plugin-import` to `v2.15.0`
+- [deps] peerDependencies `eslint-plugin-prettier` to `v3.0.1`
+- [deps] peerDependencies `eslint-plugin-react` to `v7.12.4`
+
 # 0.20.0 / 2018-11-13
 
 - [new] add `eslint-plugin-react-hooks` rules
