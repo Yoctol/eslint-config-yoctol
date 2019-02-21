@@ -9,6 +9,11 @@ module.exports = {
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   rules: {
+    // Enforce consistent usage of destructuring assignment of props, state, and context
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
+    // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/94
+    'react/destructuring-assignment': 'off',
+
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol/issues/30
