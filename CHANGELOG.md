@@ -1,3 +1,10 @@
+# 0.21.1 / 2019-02-22
+
+- [new] enabled `react-hooks/exhaustive-deps`
+- [new] set `react/destructuring-assignment` to `off`
+- [fix] use yarn upgrade to upgrade vulnerable lodash version
+- [deps] update dependencies
+
 # 0.21.0 / 2019-01-29
 
 - [deps] update `eslint-config-yoctol-base` to `0.19.0`
