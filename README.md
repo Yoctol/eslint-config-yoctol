@@ -67,6 +67,7 @@ for more information.
 #### react
 
 ```
+- react/destructuring-assignment: 'off'
 - react/sort-prop-types: ['error', {
   callbacksLast: true,
   ignoreCase: false,
