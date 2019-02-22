@@ -76,6 +76,8 @@ for more information.
 - react/no-deprecated: ['warn']
 - react/prefer-stateless-function: 'off'
 - react/jsx-filename-extension: ['error', { extensions: ['.js'] }]
+- react-hooks/rules-of-hooks: 'error'
+- react-hooks/exhaustive-deps: 'error'
 ```
 
 [npm-image]: https://badge.fury.io/js/eslint-config-yoctol.svg
