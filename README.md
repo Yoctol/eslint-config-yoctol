@@ -62,7 +62,7 @@ See [Airbnb's Javascript styleguide](https://github.com/yoctol/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
 
-## Rules be overwritted
+## Rules be overwritten
 
 #### react
 
@@ -78,6 +78,12 @@ for more information.
 - react/jsx-filename-extension: ['error', { extensions: ['.js'] }]
 - react-hooks/rules-of-hooks: 'error'
 - react-hooks/exhaustive-deps: 'error'
+```
+
+#### react-a11y
+
+```
+- jsx-a11y/aria-role: ['error', { ignoreNonDOM: true }],
 ```
 
 [npm-image]: https://badge.fury.io/js/eslint-config-yoctol.svg
