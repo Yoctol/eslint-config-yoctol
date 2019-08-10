@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Yoctol/eslint-config-yoctol",
   "dependencies": {
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb": "^18.0.0",
     "eslint-config-yoctol-base": "^0.20.0"
   },
   "devDependencies": {
