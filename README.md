@@ -14,7 +14,7 @@
 Our default export contains all of our ESLint rules, including EcmaScript 6+
 and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-jsx-a11y`, `eslint-plugin-prettier` and `eslint-plugin-sort-imports-es6-autofix`.
 
-1.  Install the correct versions of each package, which are listed by the command:
+1. Install the correct versions of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-yoctol@latest" peerDependencies
@@ -48,7 +48,7 @@ The cli will produce and run a command like:
 npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-react-hooks@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
 ```
 
-2.  Add `"extends": "yoctol"` to your .eslintrc
+2. Add `"extends": "yoctol"` to your .eslintrc
 
 ### eslint-config-yoctol/base
 
