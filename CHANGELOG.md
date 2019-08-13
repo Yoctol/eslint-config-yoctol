@@ -1,3 +1,8 @@
+# 0.22.0 / 2019-08-13
+
+- [new] add `eslint` v6 support
+- [deps] bump other deps
+
 # 0.21.1 / 2019-02-22
 
 - [new] enabled `react-hooks/exhaustive-deps`
