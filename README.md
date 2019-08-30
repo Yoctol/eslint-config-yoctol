@@ -32,7 +32,7 @@ Linux/OSX users can simply run
 Which produces and runs a command like:
 
 ```sh
-npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-react-hooks@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
+npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-react-hooks@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.# @typescript-eslint/eslint-plugin@^#.#.#
 ```
 
 Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
@@ -45,10 +45,18 @@ install-peerdeps --dev eslint-config-yoctol
 The cli will produce and run a command like:
 
 ```sh
-npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-react-hooks@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
+npm install --save-dev eslint-config-yoctol eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.# eslint-plugin-react-hooks@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.# @typescript-eslint/eslint-plugin@^#.#.#
 ```
 
 2. Add `"extends": "yoctol"` to your .eslintrc
+
+### eslint-config-yoctol/typescript
+
+Add `"extends": "yoctol/typescript"` to your .eslintrc
+
+### eslint-config-yoctol/typescript-base
+
+Add `"extends": "yoctol/typescript-base"` to your .eslintrc
 
 ### eslint-config-yoctol/base
 
@@ -62,7 +70,7 @@ See [Airbnb's Javascript styleguide](https://github.com/yoctol/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
 
-## Rules be overwritted
+## Rules be overwritten
 
 #### react
 
