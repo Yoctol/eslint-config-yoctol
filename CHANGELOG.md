@@ -1,3 +1,7 @@
+# 0.23.3 / 2019-09-05
+
+- [fix] update eslint-config-yoctol-base to support eslint-plugin-sort-imports-es6-autofix 0.5.0
+
 # 0.23.2 / 2019-09-05
 
 - [deps] update dependency eslint-plugin-sort-imports-es6-autofix to 0.5.0
