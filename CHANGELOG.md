@@ -1,3 +1,12 @@
+# 0.23.2 / 2019-09-05
+
+- [deps] update dependency eslint-plugin-sort-imports-es6-autofix to 0.5.0
+- [deps] bump other deps
+
+# 0.23.1 / 2019-08-27
+
+- chore: bump deps for security alert (#116)
+
 # 0.23.0 / 2019-08-13
 
 - [new] add `eslint` v6 support
