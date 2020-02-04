@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.24.0 / 2020-02-04
+
+- [breaking] requires `node>=10`
+- [deps] update `eslint-config-yoctol-base` to `0.22.0`
+- [deps] bump other deps
+
 ## 0.23.3 / 2019-09-05
 
 - [fix] update eslint-config-yoctol-base to support eslint-plugin-sort-imports-es6-autofix 0.5.0
