@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.25.0 / 2020-04-28
+
+- [deps] update `eslint-config-yoctol-base` to `0.23.0`
+- [deps] move `prettier` to peerDeps
+- [deps] use `prettier>=2` as peerDeps
+- [deps] bump other deps
+
 ## 0.24.0 / 2020-02-04
 
 - [breaking] requires `node>=10`
