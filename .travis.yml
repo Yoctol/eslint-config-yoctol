@@ -2,6 +2,7 @@ sudo: false
 language: node_js
 node_js:
   - "stable"
+  - "12"
   - "10"
 install: "yarn install --frozen-lockfile"
 script: "npm run lint"
