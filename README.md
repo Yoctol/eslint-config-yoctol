@@ -12,7 +12,7 @@
 ### eslint-config-yoctol
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-jsx-a11y`, `eslint-plugin-prettier` and `eslint-plugin-sort-imports-es6-autofix`.
+and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-jsx-a11y`, `eslint-plugin-prettier`, `eslint-plugin-sort-imports-es6-autofix` and `prettier`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
@@ -62,9 +62,9 @@ See [Airbnb's Javascript styleguide](https://github.com/yoctol/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
 
-## Rules be overwritted
+## Rules be overwritten
 
-#### react
+### react
 
 ```
 - react/destructuring-assignment: 'off'
