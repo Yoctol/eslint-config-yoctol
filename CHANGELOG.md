@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.25.1 / 2020-06-20
+
+- [deps] support ESLint v7
+
 ## 0.25.0 / 2020-04-28
 
 - [deps] update `eslint-config-yoctol-base` to `0.23.0`
