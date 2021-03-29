@@ -25,27 +25,27 @@
   },
   "homepage": "https://github.com/Yoctol/eslint-config-yoctol",
   "dependencies": {
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-yoctol-base": "^0.23.1"
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-yoctol-base": "^0.24.0"
   },
   "devDependencies": {
-    "eslint": "7.20.0",
+    "eslint": "7.23.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react": "7.23.1",
     "eslint-plugin-react-hooks": "4.2.0",
-    "eslint-plugin-sort-imports-es6-autofix": "0.5.0",
+    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
     "prettier": "2.2.1",
-    "react": "17.0.1"
+    "react": "17.0.2"
   },
   "peerDependencies": {
-    "eslint": "^6.1.0 || ^7.2.0",
+    "eslint": ">=7.7.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0 || ^2.0.0 || ^3.0.0 || ^4.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
     "prettier": ">=2.0.0"
   },
