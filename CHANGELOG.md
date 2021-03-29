@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.26.0 / 2021-03-29
+
+- [deps] update `eslint-config-yoctol-base` to `0.24.0`
+- [deps] use `eslint>=7.7.0` and `eslint-plugin-react-hooks^4.0.0` as peerDeps
+- [deps] bump other deps
+
 ## 0.25.1 / 2020-06-20
 
 - [deps] support ESLint v7
