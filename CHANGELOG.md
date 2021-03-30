@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.26.2 / 2021-03-31
+
+- [fix] turn off react rules that conflict with prettier
+
 ## 0.26.1 / 2021-03-30
 
 - [deps] update `eslint-config-yoctol-base` to `0.24.1`
