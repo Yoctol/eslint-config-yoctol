@@ -43,5 +43,11 @@ module.exports = {
     // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
+
+    // turn off react rules that will conflict with prettier
+    'react/jsx-curly-newline': 'off',
+    'react/jsx-indent': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-wrap-multilines': 'off',
   },
 };
